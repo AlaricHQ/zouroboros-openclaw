@@ -1,7 +1,7 @@
 {
   "name": "zouroboros-autoloop",
   "version": "1.0.0",
-  "description": "Autonomous single-metric optimization loop. Edit → experiment → measure → keep/revert → repeat. For prompt tuning, backtests, performance optimization.",
+  "description": "Autonomous single-metric optimization loop inspired by Andrej Karpathy's autoresearch: edit, experiment, measure, keep or revert",
   "license": "MIT",
   "author": "AlaricHQ <https://github.com/AlaricHQ>",
   "repository": {

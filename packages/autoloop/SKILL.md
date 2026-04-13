@@ -1,6 +1,6 @@
 ---
 name: zouroboros-autoloop
-description: "Autonomous optimization loop: edit → experiment → measure → keep/revert → repeat. For prompt tuning, backtests, performance optimization. Any task with a numeric metric."
+description: "Autonomous optimization loop inspired by Andrej Karpathy's autoresearch: edit, experiment, measure, keep or revert. Best for any task with a numeric metric."
 version: "1.0.0"
 compatibility: "OpenClaw, Claude Code, Codex CLI, any Node.js 22+ environment"
 metadata:
@@ -20,7 +20,7 @@ metadata:
 
 # Zouroboros Autoloop
 
-Autonomous single-metric optimization loop. Reads a `program.md` spec, creates a git branch, and loops: propose change → commit → run experiment → measure metric → keep improvements, revert regressions. Inspired by karpathy/autoresearch.
+Autonomous single-metric optimization loop. Reads a `program.md` spec, creates a git branch, and loops: propose change → commit → run experiment → measure metric → keep improvements, revert regressions. Inspired by Andrej Karpathy's `autoresearch` concept.
 
 ## Quick Start
 

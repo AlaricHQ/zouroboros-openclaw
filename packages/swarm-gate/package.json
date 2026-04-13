@@ -1,7 +1,7 @@
 {
   "name": "zouroboros-swarm-gate",
   "version": "1.0.1",
-  "description": "Zero-cost task complexity classifier (~2ms, no API calls). Scores whether a task warrants multi-agent swarm orchestration using 7 weighted signals.",
+  "description": "Mechanical task-routing gate for AI workflows that scores whether a task should stay direct or escalate to multi-agent orchestration",
   "license": "MIT",
   "author": "AlaricHQ <https://github.com/AlaricHQ>",
   "repository": {

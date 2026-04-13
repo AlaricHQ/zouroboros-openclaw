@@ -18,10 +18,10 @@ OpenClaw-compatible Zouroboros packages, published as standalone npm modules and
 
 | Package | npm | What It Does |
 |---------|-----|--------------|
-| Memory | `zouroboros-memory` | Adds a persistent memory layer for AI agents with SQLite storage, hybrid retrieval, decay classes, episodic memory, cognitive profiles, and an MCP server for OpenClaw or any MCP-capable client. |
-| Swarm Gate | `zouroboros-swarm-gate` | Scores a task and tells you whether it should stay direct, escalate to swarm orchestration, or sit in the middle as a judgment call, all without making model calls. |
-| Autoloop | `zouroboros-autoloop` | Runs an autonomous optimize-measure-keep-or-revert loop against one target file and one numeric metric, so you can iterate prompts, strategies, or small code paths mechanically. |
-| Bench | `zouroboros-bench` | Evaluates memory systems with repeatable benchmark runs and reporting, so you can compare retrieval quality with something stronger than anecdotal impressions. |
+| Memory | `zouroboros-memory` | Gives AI agents a durable memory backend with SQLite storage, hybrid retrieval, decay classes, episodic memory, cognitive profiles, and an MCP server for OpenClaw or any MCP-capable client. |
+| Swarm Gate | `zouroboros-swarm-gate` | Adds a cheap mechanical decision layer before orchestration, scoring whether a task should stay direct, escalate to swarm execution, or remain a judgment call. |
+| Autoloop | `zouroboros-autoloop` | Runs an autonomous optimize-measure-keep-or-revert loop around one target file and one numeric metric, inspired by Andrej Karpathy's `autoresearch` idea of repeated mechanical improvement. |
+| Bench | `zouroboros-bench` | Runs repeatable memory benchmarks and reporting so you can compare retrieval quality with actual evaluation data instead of anecdotal impressions. |
 
 ## What Each Package Is For
 
@@ -35,7 +35,7 @@ Use this when you want a cheap front door before orchestration. It decides wheth
 
 ### `zouroboros-autoloop`
 
-Use this when you have one file, one metric, and a repeatable experiment command. It is best for optimization problems like prompt tuning, strategy tuning, or small performance loops where every iteration can be judged mechanically.
+Use this when you have one file, one metric, and a repeatable experiment command. It is best for optimization problems like prompt tuning, strategy tuning, or small performance loops where every iteration can be judged mechanically. The core idea is very close to Andrej Karpathy's `autoresearch`: let the system keep proposing changes, run the experiment, and only keep what improves the metric.
 
 ### `zouroboros-bench`
 

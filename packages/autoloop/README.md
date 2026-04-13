@@ -1,6 +1,6 @@
 # zouroboros-autoloop
 
-Autonomous single-metric optimization loop. Define a metric, point it at a file, and let it iterate: propose change → experiment → measure → keep or revert.
+Autonomous single-metric optimization loop inspired by Andrej Karpathy's `autoresearch`. Define a metric, point it at one file, and let it iterate: propose change → experiment → measure → keep or revert.
 
 ## Install
 

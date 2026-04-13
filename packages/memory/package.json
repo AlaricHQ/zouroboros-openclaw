@@ -1,7 +1,7 @@
 {
   "name": "zouroboros-memory",
   "version": "4.0.0",
-  "description": "Production-grade persistent memory system with hybrid search, decay classes, episodic memory, cognitive profiles, and MCP server",
+  "description": "Durable memory backend for AI agents with hybrid search, episodic memory, cognitive profiles, decay classes, and MCP tools",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
