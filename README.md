@@ -16,12 +16,30 @@ OpenClaw-compatible Zouroboros packages, published as standalone npm modules and
 
 ## Packages
 
-| Package | npm | Best For |
-|---------|-----|----------|
-| Swarm Gate | `zouroboros-swarm-gate` | Deciding when a task actually needs multi-agent orchestration |
-| Autoloop | `zouroboros-autoloop` | Autonomous optimization against a measurable metric |
-| Memory | `zouroboros-memory` | Persistent memory, hybrid retrieval, MCP-based memory tools |
-| Bench | `zouroboros-bench` | Benchmarking memory systems with LongMemEval, LoCoMo, and ConvoMem |
+| Package | npm | What It Does |
+|---------|-----|--------------|
+| Memory | `zouroboros-memory` | Adds a persistent memory layer for AI agents with SQLite storage, hybrid retrieval, decay classes, episodic memory, cognitive profiles, and an MCP server for OpenClaw or any MCP-capable client. |
+| Swarm Gate | `zouroboros-swarm-gate` | Scores a task and tells you whether it should stay direct, escalate to swarm orchestration, or sit in the middle as a judgment call, all without making model calls. |
+| Autoloop | `zouroboros-autoloop` | Runs an autonomous optimize-measure-keep-or-revert loop against one target file and one numeric metric, so you can iterate prompts, strategies, or small code paths mechanically. |
+| Bench | `zouroboros-bench` | Evaluates memory systems with repeatable benchmark runs and reporting, so you can compare retrieval quality with something stronger than anecdotal impressions. |
+
+## What Each Package Is For
+
+### `zouroboros-memory`
+
+Use this when you want durable memory outside Zo Computer. It gives OpenClaw a real memory backend instead of just ephemeral conversation context: facts, episodes, graph-linked entities, profile summaries, and MCP tools that other agents can query.
+
+### `zouroboros-swarm-gate`
+
+Use this when you want a cheap front door before orchestration. It decides whether a task is simple enough to handle inline or broad enough to justify a multi-agent workflow, which keeps users from over-swarming trivial work.
+
+### `zouroboros-autoloop`
+
+Use this when you have one file, one metric, and a repeatable experiment command. It is best for optimization problems like prompt tuning, strategy tuning, or small performance loops where every iteration can be judged mechanically.
+
+### `zouroboros-bench`
+
+Use this when you want to measure whether a memory system is actually good. It is the comparison harness for running benchmark datasets, generating reports, and checking whether changes improved memory quality or just felt better subjectively.
 
 ## Install
 
