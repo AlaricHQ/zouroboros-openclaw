@@ -1,5 +1,12 @@
 # Zouroboros for OpenClaw
 
+[![CI](https://github.com/AlaricHQ/zouroboros-openclaw/actions/workflows/ci.yml/badge.svg)](https://github.com/AlaricHQ/zouroboros-openclaw/actions/workflows/ci.yml)
+[![Examples](https://img.shields.io/badge/examples-runnable-blue)](https://github.com/AlaricHQ/zouroboros-openclaw-examples)
+[![npm memory](https://img.shields.io/npm/v/zouroboros-memory)](https://www.npmjs.com/package/zouroboros-memory)
+[![npm swarm-gate](https://img.shields.io/npm/v/zouroboros-swarm-gate)](https://www.npmjs.com/package/zouroboros-swarm-gate)
+[![npm autoloop](https://img.shields.io/npm/v/zouroboros-autoloop)](https://www.npmjs.com/package/zouroboros-autoloop)
+[![npm bench](https://img.shields.io/npm/v/zouroboros-bench)](https://www.npmjs.com/package/zouroboros-bench)
+
 OpenClaw-compatible Zouroboros packages, published as standalone npm modules and designed to work outside Zo Computer. This repo is the public distribution surface for OpenClaw users; the canonical upstream framework remains `marlandoj/Zouroboros`.
 
 ## Repo Split
@@ -24,6 +31,13 @@ npm install -g zouroboros-autoloop
 npm install zouroboros-memory
 npm install -D zouroboros-bench
 ```
+
+## Choose Your Starting Point
+
+- Want persistent memory in OpenClaw: start with `zouroboros-memory`
+- Want a zero-cost routing decision first: start with `zouroboros-swarm-gate`
+- Want an optimization loop around one measurable metric: start with `zouroboros-autoloop`
+- Want to compare memory quality with repeatable runs: start with `zouroboros-bench`
 
 ## Quick Start
 
