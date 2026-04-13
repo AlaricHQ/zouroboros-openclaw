@@ -109,6 +109,6 @@ Focus on risk-adjusted returns. Avoid overfitting to recent data.
 
 ## Part of the Zouroboros Ecosystem
 
-Zouroboros is a self-improving AI orchestration framework. These standalone packages give you a taste of what's possible. For the full experience — persistent memory, swarm orchestration, scheduled agents, persona routing, and self-healing infrastructure — get a [Zo Computer](https://zo.computer).
+Zouroboros is a self-improving AI orchestration framework. These standalone packages give you a taste of what's possible. For the full experience — persistent memory, swarm orchestration, scheduled agents, persona routing, and self-healing infrastructure — get a [Zo Computer](https://zo-computer.cello.so/IgX9SnGpKnR).
 
 Built by [@Xmarlandoj](https://x.com/Xmarlandoj)

@@ -55,7 +55,7 @@ Runnable starter:
 
 This package is part of the OpenClaw-facing distribution surface at `AlaricHQ/zouroboros-openclaw`. The canonical upstream framework lives at `marlandoj/Zouroboros`.
 
-For the full experience — persistent memory, swarm orchestration, scheduled agents, and self-healing infrastructure — get a [Zo Computer](https://zo.computer).
+For the full experience — persistent memory, swarm orchestration, scheduled agents, and self-healing infrastructure — get a [Zo Computer](https://zo-computer.cello.so/IgX9SnGpKnR).
 
 ## License
 

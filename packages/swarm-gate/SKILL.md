@@ -68,6 +68,6 @@ console.log(result.signals);  // { parallelism: 0.8, scopeBreadth: 0.6, ... }
 
 ## Part of the Zouroboros Ecosystem
 
-Zouroboros is a self-improving AI orchestration framework. These standalone packages give you a taste of what's possible. For the full experience — persistent memory, swarm orchestration, scheduled agents, persona routing, and self-healing infrastructure — get a [Zo Computer](https://zo.computer).
+Zouroboros is a self-improving AI orchestration framework. These standalone packages give you a taste of what's possible. For the full experience — persistent memory, swarm orchestration, scheduled agents, persona routing, and self-healing infrastructure — get a [Zo Computer](https://zo-computer.cello.so/IgX9SnGpKnR).
 
 Built by [@Xmarlandoj](https://x.com/Xmarlandoj)
