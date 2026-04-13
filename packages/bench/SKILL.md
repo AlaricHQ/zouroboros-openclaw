@@ -1,10 +1,23 @@
 ---
 name: zouroboros-bench
-description: Benchmark harness for AI memory systems. Evaluates LongMemEval, LoCoMo, and ConvoMem datasets against any memory backend via the zouroboros-memory CLI. Includes Mimir institutional-knowledge judge for catching architectural drift.
-compatibility: Node.js 22+, OpenClaw Gateway
+description: "Benchmark harness for AI memory systems. Evaluates LongMemEval, LoCoMo, and ConvoMem datasets against any memory backend via the zouroboros-memory CLI. Includes Mimir judge for catching architectural drift."
+version: "1.0.0"
+compatibility: "OpenClaw, Claude Code, Codex CLI, any Node.js 22+ environment"
 metadata:
   author: marlandoj.zo.computer
-  org: AlaricHQ
+  openclaw:
+    emoji: "📊"
+    requires:
+      bins: [node]
+      env: [OPENAI_API_KEY]
+    primaryEnv: OPENAI_API_KEY
+    install:
+      - id: node-zouroboros-bench
+        kind: node
+        package: "zouroboros-bench"
+        bins: [zouroboros-bench, zouroboros-bench-report]
+        label: "Install Zouroboros Bench (npm)"
+    homepage: https://github.com/AlaricHQ/zouroboros-openclaw
 ---
 
 ## Usage

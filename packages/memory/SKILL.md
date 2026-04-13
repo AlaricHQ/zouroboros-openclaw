@@ -1,10 +1,21 @@
 ---
 name: zouroboros-memory
-description: Production-grade persistent memory for AI agents. Hybrid SQLite + vector search, decay classes, episodic memory, cognitive profiles, and MCP server. Install via npm for any OpenClaw or Node.js AI project.
-compatibility: Node.js 22+, OpenClaw Gateway
+description: "Production-grade persistent memory for AI agents. Hybrid SQLite + vector search, decay classes, episodic memory, cognitive profiles, and MCP server."
+version: "3.0.0"
+compatibility: "OpenClaw, Claude Code, Codex CLI, any Node.js 22+ environment"
 metadata:
   author: marlandoj.zo.computer
-  org: AlaricHQ
+  openclaw:
+    emoji: "🧠"
+    requires:
+      bins: [node]
+    install:
+      - id: node-zouroboros-memory
+        kind: node
+        package: "zouroboros-memory"
+        bins: [zouroboros-memory, zouroboros-memory-mcp]
+        label: "Install Zouroboros Memory (npm)"
+    homepage: https://github.com/AlaricHQ/zouroboros-openclaw
 ---
 
 ## Usage
