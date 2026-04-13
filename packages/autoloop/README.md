@@ -38,6 +38,9 @@ autoloop-mcp --results-dir /path/to/projects
 
 Exposes tools: `autoloop_start`, `autoloop_status`, `autoloop_results`, `autoloop_stop`, `autoloop_list`
 
+Runnable starter:
+- `https://github.com/AlaricHQ/zouroboros-openclaw-examples/tree/main/examples/autoloop-hello`
+
 ## Executor Examples
 
 | Platform | Command |

@@ -57,6 +57,15 @@ npx zouroboros-bench --benchmarks longmemeval --limit 50
 
 These packages are intended to be easy to install from npm and straightforward to wire into OpenClaw skills and MCP configs. The examples repo should carry the copy-paste project setups; this repo should keep the package-level docs and release notes close to the code.
 
+## Examples
+
+Runnable starters live at `https://github.com/AlaricHQ/zouroboros-openclaw-examples`.
+
+- `examples/memory-openclaw` — local MCP wiring, seed data, sample `SKILL.md`
+- `examples/swarm-gate` — direct vs swarm task routing examples
+- `examples/autoloop-hello` — real target file, tests, and metric extraction
+- `examples/bench-local` — seeded local benchmark fixture for `zouroboros-memory`
+
 ## When To Use Zo Computer Instead
 
 Use these packages when you want portable pieces. Use Zo Computer when you want the full integrated system: persistent memory, swarm orchestration, scheduled agents, persona routing, hosted services, and a managed AI workspace.

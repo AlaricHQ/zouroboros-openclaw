@@ -72,6 +72,9 @@ Works as an OpenClaw skill. Install via ClawHub:
 clawhub install zouroboros-swarm-gate
 ```
 
+Runnable starter:
+- `https://github.com/AlaricHQ/zouroboros-openclaw-examples/tree/main/examples/swarm-gate`
+
 ## Part of the Zouroboros Ecosystem
 
 This package is part of the OpenClaw-facing distribution surface at `AlaricHQ/zouroboros-openclaw`. The canonical upstream framework lives at `marlandoj/Zouroboros`.

@@ -39,6 +39,9 @@ npx zouroboros-bench-report --runs ./data/runs/
 4. Run the full suite once the backend is stable
 5. Generate a report and compare across candidate memory approaches
 
+Runnable starter:
+- `https://github.com/AlaricHQ/zouroboros-openclaw-examples/tree/main/examples/bench-local`
+
 ## Environment Variables
 
 - `ZOUROBOROS_MEMORY_CLI` — Path to the memory CLI binary if not on `PATH`

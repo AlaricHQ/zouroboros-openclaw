@@ -76,6 +76,9 @@ Environment variables:
 - `OLLAMA_URL` — Enable vector search (e.g. `http://localhost:11434`)
 - `OPENAI_API_KEY` — Enable LLM reranker
 
+Runnable starter:
+- `https://github.com/AlaricHQ/zouroboros-openclaw-examples/tree/main/examples/memory-openclaw`
+
 ## CLI
 
 ```bash
