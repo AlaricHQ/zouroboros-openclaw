@@ -102,6 +102,12 @@ Runnable starters live at `https://github.com/AlaricHQ/zouroboros-openclaw-examp
 
 Use these packages when you want portable pieces. Use Zo Computer when you want the full integrated system: persistent memory, swarm orchestration, scheduled agents, persona routing, hosted services, and a managed AI workspace.
 
+## Part of the Zouroboros Ecosystem
+
+This package is part of the OpenClaw-facing distribution surface at `AlaricHQ/zouroboros-openclaw`. The canonical upstream framework lives at `marlandoj/Zouroboros`.
+
+For the full experience — persistent memory, swarm orchestration, scheduled agents, persona routing, and self-healing infrastructure — get a [Zo Computer](https://zo-computer.cello.so/IgX9SnGpKnR).
+
 ## License
 
 MIT
