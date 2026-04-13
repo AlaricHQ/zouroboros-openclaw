@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+coverage/
+*.tsbuildinfo
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+
