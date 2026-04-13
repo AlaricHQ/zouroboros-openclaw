@@ -1,6 +1,9 @@
 name: Publish Packages
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       target:
@@ -19,7 +22,15 @@ on:
       - published
 
 jobs:
+  noop:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip publish on push
+        run: echo "Publish workflow is configured for release and manual dispatch. Push events do not publish packages."
+
   publish:
+    if: github.event_name == 'release' || (github.event_name == 'workflow_dispatch' && (inputs.target == 'all' || inputs.target == matrix.name))
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -33,8 +44,6 @@ jobs:
             path: packages/memory
           - name: bench
             path: packages/bench
-
-    if: github.event_name == 'release' || github.event.inputs.target == 'all' || github.event.inputs.target == matrix.name
 
     steps:
       - name: Checkout
@@ -61,4 +70,3 @@ jobs:
         working-directory: ${{ matrix.path }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
